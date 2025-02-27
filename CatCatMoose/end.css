@@ -1,0 +1,35 @@
+/* 让整个页面内容居中 */
+body {
+    background-color: deepskyblue;
+    text-align: center; /* 让文本居中 */
+}
+
+/* 标题样式 */
+h1 {
+    color: #ffffff;
+    margin-top: 20%;
+}
+
+/* 设置标题字体 */
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+}
+
+/* 让图片居中 */
+img {
+    display: block; /* 让图片不会受行内元素影响 */
+    margin: 20px auto; /* 自动水平居中 */
+    margin-bottom: 30%;
+    width: 30%;
+    height: auto;
+    max-width: 100%;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: lightpink;
+}

@@ -1,0 +1,52 @@
+/* 让整个页面内容居中 */
+body {
+    background-color: deepskyblue;
+    text-align: center; /* 让文本居中 */
+}
+
+/* 标题样式 */
+h1 {
+    color: #ffffff;
+    margin-top: 20%;
+}
+
+/* 设置标题字体 */
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+}
+
+/* 让图片居中 */
+img {
+    display: block; /* 让图片不会受行内元素影响 */
+    margin: 20px auto; /* 自动水平居中 */
+    margin-bottom: 30%;
+    width: 30%;
+    height: auto;
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+    justify-content: center; /* 水平居中 */
+    gap: 20px; /* 控制间距 */
+    
+}
+
+/* 让每个链接变成按钮的样式 */
+li {
+    padding: 100px 280px;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: inline-block;
+    background-color:rgb(255, 192, 247);
+}
+
+/* 让链接字体变大并去掉下划线 */
+li a {
+   
+    text-decoration: none;
+    font-size: 8em;
+    color: white;
+    font-weight: bold;
+}
